@@ -86,7 +86,7 @@ function createPopup(film) {
 
             </div>
         </div>`
-    document.getElementById("popup").innerHTML += filmPopup
+    document.getElementById("popup").innerHTML += filmPopup;
 
 }
 

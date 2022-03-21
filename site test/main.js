@@ -3,7 +3,7 @@
 // }
 //
 // function divGenerator(films){
-//     document.getElementById("card").innerHTML = '';
+//     document.getElementById("card").innerHTML = ''  ;
 //
 //     films.forEach(function(item, index) {
 //         let div = `
