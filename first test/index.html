@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="testJs.js"></script>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/Fredoka">
+    </head>
+    <body class="body-main" >
+<!--    <img class="background-img" src="../www/images/img22.jpeg" alt="jhdjvjd">-->
+        <div class="body-container" id="body">
+            <div class="login-data-free-space"></div>
+            <div class="login-data">
+                <div class="logo">
+                    <div>
+                        <img src="imagesgo.png" alt="Apple Logo" class="logo-img">
+                    </div>
+                    <div> Logo </div>
+                </div>
+                <div>
+                    <h2> Log in to your account </h2>
+                </div>
+                <div class="user Login">
+                    <input type="text" id="userLogin" class="Input" placeholder="Username">
+                </div>
+                <div class="user Password">
+                    <input type="password" id="userPassword" class="Input"  placeholder="Password">
+                </div>
+                <button onClick="onLogin()" class="Butt">Login</button>
+            </div>
+            <div class="login-data-free-space"></div>
+        </div>
+        <div class="footer">
+            <button onClick="openForm()" class="open-button">Can't log in?</button>
+            <h6>Privacy policy Terms of use</h6>
+
+        </div>
+    </body>
+
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+            <h1>${item.title}</h1>
+
+            <div class="user Login">
+                <label><b>Login</b></label>
+                <input type="text" id="userLogin2" class="Input" placeholder="Username">
+            </div>
+
+            <label><b>Old Password</b></label>
+            <input type="text" placeholder="Old Password" class="Input" id="oldPassword" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="New Password" class="Input" id="newPassword" required>
+
+            <button type="submit" class="btn" onclick="setNewPassword()">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+</html>
+
